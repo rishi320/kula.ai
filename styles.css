@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0
+}
+
+.nav-bar{
+    width:100%;
+    height:80px;
+    background-color: aquamarine;
+    position: fixed;
+    z-index: 9999;
+}
+
+.section-1{
+    width:100%;
+    height: 1000px;
+    background-color: grey;
+}
+
+.scroll-section{
+    /* padding: 30px; */
+    height: 100%;
+}
+
+.scroll{
+    width: 80%;
+    margin: 40px auto;
+    height: 70vh;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: sticky;
+    top: 80px;
+    z-index: 10;
+    transition: all 2000ms ease-in;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.scroll-1{
+    background-color: aqua;
+}
+.scroll-2{
+    background-color: red;
+}
+.scroll-3{
+    background-color: blue;
+}
+.scroll-4{
+    background-color: violet;
+}
+.scroll-5{
+    background-color: green;
+}
+
+.intersecting{
+    transform: translate3d(0px, 0px, 0px) scale3d(0.8, 0.8, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
+
+.disecting{
+    transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+}
